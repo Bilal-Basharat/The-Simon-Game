@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(12, 24, 90);
+}
+.container{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #FEF2BF;
+}
+.block1{
+    margin-right: 70px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.block2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.block3{
+    margin-right: 70px;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.block4{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.allBlocks{
+    /* border: 5px solid rgb(62, 60, 60); */
+    display: flex;
+    margin: 70px auto 70px auto;
+    width: 600px;
+    justify-content: center;
+}
